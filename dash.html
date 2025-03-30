@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Status – Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <header class="bg-white shadow-md sticky top-0 z-10">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-indigo-600">Status</h1>
+      <nav>
+        <span class="text-gray-600 mr-4">Bienvenido 👋</span>
+        <a href="login.html" class="bg-red-500 text-white px-4 py-2 rounded-full hover:bg-red-600">Cerrar sesión</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="py-12 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold text-indigo-700 mb-6">Tu espacio de crecimiento financiero</h2>
+
+      <div class="grid md:grid-cols-2 gap-6">
+
+        <!-- Video educativo -->
+        <div class="bg-white p-6 rounded-xl shadow-md">
+          <h3 class="text-xl font-semibold text-indigo-600 mb-2">Video: ¿Cómo hacer tu primer presupuesto?</h3>
+          <iframe class="w-full h-64 rounded-md" src="https://www.youtube.com/embed/5RwXfiX5EdU" title="Presupuesto básico" allowfullscreen></iframe>
+        </div>
+
+        <!-- Documento descargable -->
+        <div class="bg-white p-6 rounded-xl shadow-md">
+          <h3 class="text-xl font-semibold text-indigo-600 mb-2">Guía PDF: Finanzas Personales para Principiantes</h3>
+          <p class="text-gray-600 mb-4">Descarga esta guía práctica y comienza a aplicar hábitos saludables con el dinero.</p>
+          <a href="assets/doc/Curso-de-Finanzas-Personales-para-Principiantes-1.pdf" download class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">Descargar Guía</a>
+        </div>
+
+        <!-- Otro contenido -->
+        <div class="bg-white p-6 rounded-xl shadow-md">
+          <h3 class="text-xl font-semibold text-indigo-600 mb-2">Plantilla Excel: Control de gastos</h3>
+          <p class="text-gray-600 mb-4">Una plantilla simple para monitorear tus ingresos, egresos y ahorro mensual.</p>
+          <a href="assets/doc/plantilla-gastos.xlsx" download class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">Descargar Plantilla</a>
+        </div>
+
+        <!-- Comunidad o próximos eventos -->
+        <div class="bg-white p-6 rounded-xl shadow-md">
+          <h3 class="text-xl font-semibold text-indigo-600 mb-2">Únete a nuestra comunidad</h3>
+          <p class="text-gray-600 mb-4">Pronto lanzaremos un canal de Telegram y sesiones en vivo para ayudarte a crecer.</p>
+          <button class="bg-gray-300 text-gray-700 px-4 py-2 rounded cursor-not-allowed">Próximamente</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-white border-t py-6 text-center text-gray-600 mt-10">
+    © 2025 Status. Tu camino hacia la libertad financiera.
+  </footer>
+
+</body>
+</html>
